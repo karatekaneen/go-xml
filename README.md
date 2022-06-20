@@ -1,11 +1,11 @@
-[![GoDoc](https://godoc.org/aqwari.net/xml?status.svg)](https://godoc.org/aqwari.net/xml) [![Build Status](https://travis-ci.org/droyo/go-xml.svg?branch=master)](https://travis-ci.org/droyo/go-xml)
+[![GoDoc](https://godoc.org/github.com/karatekaneen/go-xml?status.svg)](https://godoc.org/github.com/karatekaneen/go-xml) [![Build Status](https://travis-ci.org/droyo/go-xml.svg?branch=master)](https://travis-ci.org/droyo/go-xml)
 
 ## Installation
 
 Requires go 1.9 or greater for golang.org/x/html dependency.
 
 ```
-go get aqwari.net/xml/...
+go get github.com/karatekaneen/go-xml/...
 ```
 
 This repository contains a collection of Go packages for working
@@ -31,7 +31,7 @@ on XML documents.
 The directory wsdlgen/examples contains packages that were (mostly)
 automatically generated using the wsdlgen package. You can run
 
-	go generate
+    go generate
 
 within the subdirectories to re-generate the code if you make changes
 to the wsdlgen package.

@@ -7,7 +7,7 @@
 //
 // Code generation for the wsdlgen package can be configured by using
 // the provided Option functions.
-package wsdlgen // import "aqwari.net/xml/wsdlgen"
+package wsdlgen // import "github.com/karatekaneen/go-xml/wsdlgen"
 
 import (
 	"encoding/xml"
@@ -17,10 +17,10 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"aqwari.net/xml/internal/gen"
-	"aqwari.net/xml/wsdl"
-	"aqwari.net/xml/xsd"
-	"aqwari.net/xml/xsdgen"
+	"github.com/karatekaneen/go-xml/internal/gen"
+	"github.com/karatekaneen/go-xml/wsdl"
+	"github.com/karatekaneen/go-xml/xsd"
+	"github.com/karatekaneen/go-xml/xsdgen"
 )
 
 // Types conforming to the Logger interface can receive information about
